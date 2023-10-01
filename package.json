@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^0.8.5",
+    "@nuxtjs/supabase": "^1.1.2",
     "nuxt": "^3.7.3",
     "nuxt-api-party": "^0.20.1"
   },

@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
-  modules: ['@nuxt/ui', 'nuxt-api-party']
+  modules: ['@nuxt/ui', 'nuxt-api-party', '@nuxtjs/supabase']
 });
