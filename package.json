@@ -1,20 +1,21 @@
 {
+  "name": "alpine-starter",
+  "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "HOST=0.0.0.0 nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@nuxt-themes/alpine": "latest",
     "@nuxt/devtools": "^0.8.5",
-    "@nuxtjs/supabase": "^1.1.2",
-    "nuxt": "^3.7.3",
-    "nuxt-api-party": "^0.20.1"
-  },
-  "dependencies": {
-    "@nuxt/ui": "^2.8.1"
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/plausible": "^0.2.3",
+    "@types/node": "^20.7.1",
+    "eslint": "^8.50.0",
+    "nuxt": "^3.7.4"
   }
 }
